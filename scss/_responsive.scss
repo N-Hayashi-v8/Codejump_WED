@@ -1,0 +1,152 @@
+@media (max-width: 900px) {
+  .site-header {
+    &__inner {
+      padding: 8px 16px;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+    }
+
+    &__contact {
+      display: none;
+    }
+  }
+
+  .site-logo {
+    margin-left: 0;
+  }
+
+  .site-nav {
+    width: 100%;
+    margin-left: 0;
+
+    &__list {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 8px 16px;
+      font-size: 11px;
+    }
+  }
+
+  .hero {
+    &__media {
+      height: 360px;
+
+      img {
+        height: 360px;
+      }
+    }
+  }
+
+  .section {
+    padding: 48px 0;
+
+    &__title {
+      margin-bottom: 24px;
+    }
+
+    &__title-en {
+      font-size: 28px;
+    }
+
+    &__title--line {
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+    }
+
+    &--about {
+      margin-top: 0;
+    }
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    &__body {
+      padding: 32px 16px 0;
+    }
+  }
+
+  .business {
+    display: flex;
+    flex-direction: column;
+
+    &__column {
+      gap: 24px;
+      margin-top: 0;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &__item {
+      img {
+        height: 180px;
+      }
+    }
+  }
+
+  .company {
+    min-height: auto;
+
+    &__body {
+      width: 100%;
+      padding: 32px 20px;
+    }
+
+    &__media {
+      position: static;
+      width: 100%;
+      margin-top: 24px;
+    }
+
+    &__info {
+      div {
+        grid-template-columns: 80px 1fr;
+      }
+    }
+  }
+
+  .news {
+    flex-direction: column;
+
+    &__item {
+      border-left: none;
+      padding: 16px;
+    }
+  }
+
+  .news-page {
+    &__item {
+      grid-template-columns: 90px 50px 1fr;
+      gap: 10px;
+      font-size: 12px;
+    }
+
+    &__tab {
+      flex: 1;
+      text-align: center;
+      padding: 0 0 12px;
+    }
+
+    &__label {
+      font-size: 9px;
+      padding: 2px 6px;
+    }
+
+    &__lists {
+      padding-top: 12px;
+    }
+  }
+
+  .site-footer {
+    padding-top: 40px;
+
+    &__inner {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
